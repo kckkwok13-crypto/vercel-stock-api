@@ -1,0 +1,9 @@
+{
+  "name": "stock-api-proxy",
+  "version": "1.0.0",
+  "description": "Vercel API for fetching stock data",
+  "main": "api/stock.js",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
