@@ -1,6 +1,6 @@
 {
   "routes": [
     { "src": "/api/stock", "dest": "/api/stock.js" },
-    { "src": "/api/stock.js", "dest": "/api/stock.js" }
+    { "src": "/api/stock(.*)", "dest": "/api/stock.js" }
   ]
 }
